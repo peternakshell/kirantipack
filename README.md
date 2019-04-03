@@ -18,14 +18,7 @@ This is a project for backdooring webserver without using web-based shell
 * Download this project
 * Generate your own backdoor with: 
 ```
-$ php packer.php -o -b -z -l -v -h
-
--o		Output Filename
--b		Backdoor Type [bind|reverse]
--z		Compression [gzdeflate|gzencode|gzcompress]
--l		Level Compression [0-9]
--v		Display the version
--h		Display this message
+$ php packer.php
 ```
 * Upload to your hacked website and access
 * We will use netcat for connect to our backdoor
